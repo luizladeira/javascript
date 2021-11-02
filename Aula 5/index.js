@@ -61,7 +61,6 @@ console.log(ago_1);
 let ago_2 = new Date();
 console.log(ago_2);
 
-
 console.log('Dia: '+ ago_2.getDate());
 console.log('MêS: '+ ago_2.getMonth());
 console.log('Ano: '+ ago_2.getFullYear());
