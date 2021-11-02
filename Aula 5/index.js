@@ -62,10 +62,9 @@ let ago_2 = new Date();
 console.log(ago_2);
 
 
-let ago_3 = new Date();
-console.log('Dia: '+ ago_3.getDate());
-console.log('MêS: '+ ago_3.getMonth());
-console.log('Ano: '+ ago_3.getFullYear());
+console.log('Dia: '+ ago_2.getDate());
+console.log('MêS: '+ ago_2.getMonth());
+console.log('Ano: '+ ago_2.getFullYear());
 
 //Pegar a data pela localização do usuário
 let ago_geo = new Date();
