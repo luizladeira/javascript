@@ -26,5 +26,12 @@ let subtrair = (x1, x2) => {
 let resultado_sub = subtrair(6,1);
 console.log(resultado_sub);
 
+//Events
+window.addEventListener('focus', event => {
+    console.log("focus");
+});
 
+document.addEventListener('click', event => {
+    console.log('clique');
+});
 
