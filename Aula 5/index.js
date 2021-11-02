@@ -35,3 +35,22 @@ document.addEventListener('click', event => {
     console.log('clique');
 });
 
+//Dates
+
+let ago_1 = Date.now(); 
+console.log(ago_1);
+
+let ago_2 = new Date();
+console.log(ago_2);
+
+
+let ago_3 = new Date();
+console.log('Dia: '+ ago_3.getDate());
+console.log('MêS: '+ ago_3.getMonth());
+console.log('Ano: '+ ago_3.getFullYear());
+
+//Pegar a data pela localização do usuário
+let ago_geo = new Date();
+console.log(ago_geo.toLocaleDateString('pt-BR'));
+
+//ARRAYS
